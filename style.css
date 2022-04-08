@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1400px;
+    background: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Cai dat khoang cach */
+
+.main{
+    width: 1100px;
+    margin:auto;
+}
+.logo{
+    height: 80px;
+}
+.nav{
+    height: 40px;
+    background: #272f54;
+    display: flex;
+}
+.sale{
+    height: 250px;
+}
+.content{
+    height: 985px;
+}
+.footer{
+    height: 50px;
+    background-image: #272f54;
+}
+
+/* thiet ke logo */
+.logo{
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* cai dat nav */
+.nav ul{
+    list-style-type: none;
+    line-height: 40px;
+    display: flex;
+}
+.nav ul{
+    padding-left: 50px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.text{
+    width: 200px;
+    height: 20px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.timkiem{
+    width: 90px;
+    height: 20px;
+    padding-right:20px;
+    background: #db2704;
+}
+form{
+    text-align: right;
+    padding-left: 10px;
+    margin-right: 35px;
+}
+
+/* cai dat sale */
+.sale img{
+    width: 100%;
+    height: 100%;
+}
+
+/* cai dat content */
+.content .khuyenmaihot .td{
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #272f54;
+    padding-top: 20px ;
+}
+.nd{
+    display: flex;
+    padding-top: 5px;
+}
+.image1{
+    flex:1;
+    text-align: center;
+    border: 0.5px solid black;
+    margin-left:15px;
+    margin-right:15px;
+}
+.image1 .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a2828;
+    padding: 10px;
+}
+.image1 .oldcost{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #2a2828;
+    padding: 10px;
+}
+.image1 .newcost{
+    font-size: 25px;
+    color: #c1080f;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.image2{
+    flex:1;
+    text-align: center;
+    border: 0.5px solid black;
+    margin-left:15px;
+    margin-right:15px;
+}
+.image2 .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a2828;
+    padding: 10px;
+}
+.image2 .oldcost{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #2a2828;
+    padding: 10px;
+}
+.image2 .newcost{
+    font-size: 25px;
+    color: #c1080f;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.image3{
+    flex:1;
+    text-align: center;
+    border: 0.5px solid black;
+    margin-left:15px;
+    margin-right:15px;
+}
+.image3 .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a2828;
+    padding: 10px;
+}
+.image3 .oldcost{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #2a2828;
+    padding: 10px;
+}
+.image3 .newcost{
+    font-size: 25px;
+    color: #c1080f;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.content .sanphammoi .td{
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #272f54;
+    padding-top: 20px ;
+}
+
+/*cai dat footer */
+.footer{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
